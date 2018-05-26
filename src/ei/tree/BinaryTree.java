@@ -1,6 +1,7 @@
 package ei.tree;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class BinaryTree<T extends Number> {
 	private Node<T> root;
@@ -19,7 +20,7 @@ public class BinaryTree<T extends Number> {
 	}
 	
 	private Logger getClassLogger() {
-		return Logger.getLogger(this.getClass());
+		return LoggerFactory.getLogger(this.getClass());
 	}
 
 	public boolean removeNode(Node<T> node){

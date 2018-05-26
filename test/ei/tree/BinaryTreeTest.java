@@ -11,7 +11,6 @@ import org.junit.Test;
 import ei.tree.BinaryTree;
 import ei.tree.Node;
 
-
 public class BinaryTreeTest {
 
 	
